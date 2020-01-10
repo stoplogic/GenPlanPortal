@@ -1,0 +1,66 @@
+.newspage-content {
+  width: 680px;
+  min-width: 350px;
+  text-align: center; }
+  @media (max-width: 450px) {
+    .newspage-content h1 {
+      font-size: 40px; }
+    .newspage-content img {
+      width: 350px; } }
+  .newspage-content .date {
+    font-family: 'CirceLight';
+    font-size: 12px;
+    line-height: 24px;
+    color: #99a3aa; }
+  .newspage-content p {
+    text-align: left; }
+
+.article-info {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  background-color: #f2f2f2; }
+  @media (max-width: 740px) {
+    .article-info {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      -webkit-box-align: center;
+              align-items: center; } }
+  .article-info .author {
+    margin-right: 400px; }
+    @media (max-width: 1080px) {
+      .article-info .author {
+        margin-right: 100px; } }
+    @media (max-width: 740px) {
+      .article-info .author {
+        margin-right: 0;
+        margin-bottom: 20px; } }
+    .article-info .author .author-card {
+      display: -webkit-box;
+      display: flex; }
+      .article-info .author .author-card .author-name {
+        font-family: 'CirceBold';
+        font-size: 18px;
+        line-height: 24px; }
+      .article-info .author .author-card .author-position {
+        font-family: 'CirceRegular';
+        font-size: 16px;
+        line-height: 24px;
+        color: #505050; }
+
+.materials-item {
+  font-family: 'CirceRegular';
+  font-size: 16px;
+  line-height: 24px; }
+
+.similar {
+  background-color: #e0e0e0; }
+  .similar h3 {
+    font-weight: bold;
+    font-size: 32px !important;
+    line-height: 32px !important; }
+  .similar .description {
+    font-size: 16px !important;
+    line-height: 24px !important; }

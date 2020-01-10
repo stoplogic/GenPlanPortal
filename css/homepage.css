@@ -1,0 +1,109 @@
+section {
+  padding-bottom: 35px; }
+
+.news {
+  background-color: #f2f2f2; }
+  .news-headings {
+    margin: 0;
+    padding-bottom: 16px;
+    -webkit-box-pack: center;
+            justify-content: center;
+    font-family: 'CirceRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid #99a3aa; }
+    .news-headings .heading {
+      margin-right: 32px; }
+      .news-headings .heading:last-child {
+        margin-right: 0; }
+      .news-headings .heading .heading-pointer {
+        width: 26px;
+        height: 4px;
+        border-bottom: 4px solid #577abb; }
+
+.news-block {
+  padding: 0 0 50px 0; }
+  .news-block .text-block {
+    padding-bottom: 32px; }
+    .news-block .text-block .info {
+      margin-bottom: 24px; }
+      .news-block .text-block .info .type {
+        background: #577abb;
+        padding: 1px 8px 0;
+        font-family: 'CirceLight';
+        line-height: 24px; }
+      .news-block .text-block .info .line {
+        background: #99A3AA; }
+      .news-block .text-block .info .date {
+        color: #99A3AA; }
+    .news-block .text-block h3 {
+      font-family: 'CirceBold';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 24px; }
+    .news-block .text-block .celebration {
+      color: #333333; }
+
+.red-type {
+  color: #ffffff;
+  background: #D34F43;
+  padding: 1px 8px 0;
+  font-family: 'CirceLight';
+  line-height: 24px; }
+
+.birthdays {
+  background-color: #e0e0e0;
+  padding-top: 66px; }
+  .birthdays .congratulation {
+    margin-bottom: 56px;
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; }
+  .birthdays .person-card {
+    display: -webkit-box;
+    display: flex; }
+    .birthdays .person-card img {
+      width: 64px;
+      height: 64px;
+      margin-top: 28px;
+      margin-right: 24px; }
+    .birthdays .person-card .bd-date {
+      margin-bottom: 8px;
+      font-family: 'CirceRegular';
+      font-size: 12px;
+      line-height: 18px; }
+    .birthdays .person-card .today {
+      display: -webkit-box;
+      display: flex;
+      width: 57px;
+      height: 18px;
+      padding-top: 2px;
+      margin-bottom: 8px;
+      color: #ffffff;
+      background: #D34F43;
+      -webkit-box-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+              justify-content: center;
+      font-family: 'CirceRegular';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px; }
+    .birthdays .person-card .person-name {
+      margin-bottom: 18px;
+      font-size: 16px;
+      font-style: bold;
+      line-height: 18px; }
+    .birthdays .person-card .person-position {
+      margin-bottom: 54px;
+      font-family: 'CirceLight';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 16px; }

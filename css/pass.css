@@ -1,0 +1,136 @@
+.custom-form-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 100%;
+  white-space: nowrap;
+  color: #577ABB;
+  font-size: 16px;
+  font-family: "CirceRegular";
+  height: 24px; }
+  @media (max-width: 650px) {
+    .custom-form-link {
+      left: 0;
+      top: 88px; } }
+
+.add-visitor-link:hover {
+  cursor: pointer; }
+
+.date-form-container {
+  position: relative; }
+  @media (min-width: 1321px) {
+    .date-form-container {
+      flex-basis: 280px; } }
+  .date-form-container .calendar-icon {
+    position: absolute;
+    right: 16px;
+    top: 52px;
+    cursor: pointer; }
+  .date-form-container #date {
+    height: 56px;
+    font-family: 'CirceRegular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #99A3AA;
+    background-color: #f2f2f2; }
+
+.pickmeup {
+  background: #ffffff !important;
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.15); }
+
+.pickmeup .pmu-instance {
+  font-family: 'Circelight';
+  background-color: #fff; }
+
+.pickmeup .pmu-instance .pmu-button {
+  color: #000000; }
+
+.pmu-day-of-week {
+  padding-left: 6px; }
+
+.pmu-day-of-week div {
+  width: 32px;
+  margin-left: 2px;
+  font-family: 'CirceLight';
+  font-size: 14px !important; }
+
+.pmu-days .pmu-button {
+  width: 30px !important;
+  height: 22px !important;
+  font-family: 'CirceLight';
+  font-size: 14px !important; }
+
+.pickmeup .pmu-instance .pmu-today {
+  border: 1px solid #a2a2a2;
+  background: #ffffff !important; }
+
+.pickmeup .pmu-instance .pmu-selected {
+  background: #84d8fe !important; }
+
+.pmu-not-in-month {
+  color: #a2a2a2 !important; }
+
+.pmu-sunday {
+  color: #D34F43 !important; }
+
+.pmu-day-of-week {
+  border-bottom: 1px solid #a2a2a2; }
+  .pmu-day-of-week div:last-child {
+    color: #d34f43 !important; }
+
+.range-slider .slider.slider-horizontal .slider-track {
+  height: 16px;
+  background: #F3F4F5;
+  border-radius: 13px;
+  box-shadow: none; }
+
+.range-slider .slider-selection {
+  height: 16px;
+  background: #93C7EC;
+  opacity: 0.4;
+  border-radius: 45px;
+  box-shadow: none; }
+
+.range-slider .slider-handle {
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(194, 198, 210, 0.25); }
+  .range-slider .slider-handle:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; }
+
+.range-slider.value-1-style .slider-handle:before {
+  background: url(../img/value_icon_0.svg) center no-repeat; }
+
+.range-slider.value-2-style .slider-handle:before {
+  background: url(../img/value_icon_1.svg) center no-repeat; }
+
+.range-slider.value-3-style .slider-handle:before {
+  background: url(../img/value_icon_2.svg) center no-repeat; }
+
+.range-slider.value-3-style .slider-selection {
+  background: #D34F43;
+  opacity: 0.8; }
+
+.range-slider .tooltip-main {
+  top: calc(100% + 16px) !important;
+  opacity: 1;
+  text-align: center;
+  margin-left: 10px;
+  width: 60px; }
+  .range-slider .tooltip-main .tooltip-inner {
+    font-family: 'CirceRegular';
+    font-size: 12px;
+    line-height: 18px;
+    background: transparent;
+    color: inherit;
+    white-space: normal;
+    padding: 0; }
